@@ -295,10 +295,10 @@
             foreach ($finance_list as $key => $val) : ?>
                 <div class="col-6 col-lg-4 col-xl-3">
                     <div class="finance_card">
-                        <?= renderImg("finance-" . $key + 1 . ".jpg", "lib", "bg-img") ?>
+                        <?= renderImg("finance-" . ($key + 1) . ".jpg", "lib", "bg-img") ?>
                         <div class="inner">
                             <div class="text-center w-100">
-                                <?= renderImg("finance-" . $key + 1 . ".png", "icons") ?>
+                                <?= renderImg("finance-" . ($key + 1) . ".png", "icons") ?>
                                 <div class="title"><?= $val ?></div>
                             </div>
                         </div>
@@ -339,7 +339,7 @@
                 <div class="col-md-4 col-xl-2">
                     <div class="whyus_card">
                         <div class="row justify-content-center align-items-center gy-md-3">
-                            <div class="col-3 col-md-auto"><?= renderImg("whyus-" . $key + 1 . ".png", 'icons') ?></div>
+                            <div class="col-3 col-md-auto"><?= renderImg("whyus-" . ($key + 1) . ".png", 'icons') ?></div>
                             <div class="col col-md-12"><?= $val ?></div>
                         </div>
                     </div>
