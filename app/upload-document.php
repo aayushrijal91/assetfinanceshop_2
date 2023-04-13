@@ -14,7 +14,7 @@ include __DIR__ . '/src/nav.php';
     if (params.quoteId) {
         localStorage.setItem('quoteId', params.quoteId);
     }
-    localStorage.setItem('sourceUrl', 'https://assetfinanceshop.com.au/assetfinance2/');
+    localStorage.setItem('sourceUrl', 'https://assetfinanceshop.com.au/assetfinance2');
 </script>
 <script>
     // SET CSS PROPERTY
